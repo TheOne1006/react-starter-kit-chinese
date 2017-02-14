@@ -142,18 +142,20 @@ $ yarn run test:watch    # Launch unit test runner and start watching for change
 $ yarn run deploy
 ```
 
-The deployment script `tools/deploy.js` is configured to push the contents of
-the `/build` folder to a remote server via Git. You can easily deploy your app
-to [Azure Web Apps](https://azure.microsoft.com/en-us/services/app-service/web/),
-or [Heroku](https://www.heroku.com/) this way. Both will execute `yarn install --production`
-upon receiving new files from you. Note, you should only deploy the contents
-of the `/build` folder to a remote server.
+部署脚本 `tools/deploy.js` 配置是通过 git 将 `/build` 目录推送到远程服务中,
+可以轻松的通过这种方式部署到 [Azure Web Apps](https://azure.microsoft.com/en-us/services/app-service/web/),
+或者 [Heroku](https://www.heroku.com/) .
+都会执行 `yarn install --production`.
+注意, 你应该只讲你的 `/build` 部署到你的服务器
 
-### How to Update
 
-If you need to keep your project up to date with the recent changes made to RSK,
-you can always fetch and merge them from [this repo](https://github.com/kriasoft/react-starter-kit)
-back into your own project by running:
+### 如何更新
+
+
+
+如果你需要让你的项目 更新到最新的
+RSK [this repo](https://github.com/kriasoft/react-starter-kit),
+你可以通过 fetch 和 merge 方式合并到你的项目中:
 
 ```shell
 $ git checkout master
