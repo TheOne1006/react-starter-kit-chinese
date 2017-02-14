@@ -1,13 +1,18 @@
-## React Starter Kit — "[isomorphic](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)" web app boilerplate &nbsp; <a href="https://github.com/kriasoft/react-starter-kit/stargazers"><img src="https://img.shields.io/github/stars/kriasoft/react-starter-kit.svg?style=social&label=Star&maxAge=3600" height="20"></a> <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
+## React Starter Kit — "[同构](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)" web  应用 样板 &nbsp; <a href="https://github.com/kriasoft/react-starter-kit/stargazers"><img src="https://img.shields.io/github/stars/kriasoft/react-starter-kit.svg?style=social&label=Star&maxAge=3600" height="20"></a> <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
 
-[React Starter Kit](https://www.reactstarterkit.com) is an opinionated boilerplate for web
-development built on top of [Node.js](https://nodejs.org/),
-[Express](http://expressjs.com/), [GraphQL](http://graphql.org/) and
-[React](https://facebook.github.io/react/), containing modern web development
-tools such as [Webpack](http://webpack.github.io/), [Babel](http://babeljs.io/)
-and [Browsersync](http://www.browsersync.io/). Helping you to stay productive
-following the best practices. A solid starting point for both professionals
-and newcomers to the industry.
+我只是做个翻译
+
+[React Starter Kit](https://www.reactstarterkit.com) 是一个 web 开发样本 构建在  [Node.js](https://nodejs.org/),
+[Express](http://expressjs.com/),
+[GraphQL](http://graphql.org/)
+以及
+[React](https://facebook.github.io/react/)
+之上, 包含现代web开发工具 例如:
+[Webpack](http://webpack.github.io/),
+[Babel](http://babeljs.io/)
+以及
+[Browsersync](http://www.browsersync.io/).
+帮助你实现最佳实践. 为专业人士和新来者提供行业的坚实起点.
 
 **See** [getting started guide](./docs/getting-started.md), [demo][demo],
 [docs](https://github.com/kriasoft/react-starter-kit/tree/master/docs),
