@@ -18,24 +18,25 @@ RSK 附带以下库用于测试:
 要测试您的应用程序，只需运行
 [`yarn test`](https://github.com/kriasoft/react-starter-kit/blob/b22b1810461cec9c53eedffe632a3ce70a6b29a3/package.json#L154)
 命令即可:
-- recursively find all files ending with `.test.js` in your `src/` directory
-- mocha execute found files
+- 递归查找所有在 `src/`目录中 文件名以 `.test.js` 结尾的文件
+- mocha 执行这些找到的文件
 
 ```bash
 yarn test
 ```
 
-### Conventions
+### 惯例
 
-- test filenames MUST end with `test.js` or `yarn test` will not be able to detect them
-- test filenames SHOULD be named after the related component (e.g. create `Login.test.js` for
-`Login.js` component)
+- 待测试文件 必须 以 `test.js` 结尾 否则 `yarn test` 将无法检测到它们
+- 测试文件名应该在 相关 Component 之后
+(例如. 创建 `Login.test.js` 基于 `Login.js` 组件)
 
-### Basic example
+### 简单基础案例
 
-To help you on your way RSK comes with the following
-[basic test case](https://github.com/kriasoft/react-starter-kit/blob/master/src/components/Layout/Layout.test.js)
-you can use as a starting point:
+
+为了帮助您顺利完成RSK，您可以使用以下
+[基本测试](https://github.com/kriasoft/react-starter-kit/blob/master/src/components/Layout/Layout.test.js)
+用例作为起点
 
 ```js
 import React from 'react';
@@ -61,11 +62,12 @@ describe('Layout', () => {
 });
 ```
 
-### React-intl exampleß
+### React-intl 案例ß
 
-React-intl users MUST render/wrap components inside an IntlProvider like the example below:
+React-intl 用户必须 渲染/包裹 Component 与 IntlProvider 中,
+如下所示:
 
-The example below example is a drop-in test for the RSK `Header` component:
+下面的示例是RSK `Header` 组件的插入测试：
 
 ```js
 import React from 'react';
@@ -85,14 +87,14 @@ describe('A test suite for <Header />', () => {
 });
 ```
 
-Please note that  NOT using IntlProvider will produce the following error:
+请注意, 如若未使用 IntlProvider 会产生以下错误:
 
 > Invariant Violation: [React Intl] Could not find required `intl` object. <IntlProvider>
 > needs to exist in the component ancestry.
 
 ### Linting
 
-In order to check if your JavaScript and CSS code follows the suggested style guidelines run:
+为了检查您的JavaScript和CSS代码是否遵循建议的样式指南，请运行:
 
 ```bash
 yarn run lint
