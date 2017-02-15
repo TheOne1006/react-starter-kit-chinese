@@ -151,8 +151,6 @@ $ yarn run deploy
 
 ### 如何更新
 
-
-
 如果你需要让你的项目 更新到最新的
 RSK [this repo](https://github.com/kriasoft/react-starter-kit),
 你可以通过 fetch 和 merge 方式合并到你的项目中:

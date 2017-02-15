@@ -68,15 +68,16 @@ function Navigation({ items }) {
 Navigation.propTypes = { items: PropTypes.array.isRequired };
 ```
 
-### Use CSS Modules
+### 使用 CSS 模块
 
-* Use CSS Modules<br>
-  This will allow using short CSS class names and at the same time avoid conflicts.
-* Keep CSS simple and declarative. Avoid loops, mixins etc.
+* 使用 CSS 模块  
+  这将允许使用短的 CSS 类名, 同时能能够避免冲突.
+* 保持CSS简单和声明性。避免循环，混合等。
 * Feel free to use variables in CSS via [precss](https://github.com/jonathantneal/precss) plugin for [PostCSS](https://github.com/postcss/postcss)
-* Prefer CSS class selectors instead of element and `id` selectors (see [BEM](https://bem.info/))
-* Avoid nested CSS selectors (see [BEM](https://bem.info/))
-* When in doubt, use `.root { }` class name for the root elements of your components
+* 随意使用变量在 CSS 中 [PostCSS](https://github.com/postcss/postcss) 通过 [precss](https://github.com/jonathantneal/precss) 插件
+* 优先使用 CSS class 选择器 代替 元素 和 id 选择器 (详情[BEM](https://bem.info/))
+* 避免嵌套的CSS选择器(详情 [BEM](https://bem.info/))
+* 有问题时, 使用 `.root { }` 类名用于 Component 的根元素
 
 ```scss
 // Navigation.scss
@@ -147,9 +148,10 @@ export default withStyles(Navigation, s);
 ```
 
 ### Use higher-order components
+### 使用高阶 Components
 
-* Use higher-order components (HOC) to extend existing React components.<br>
-  Here is an example:
+* 使用高阶组件(HOC) 扩展现有的 React 组件.
+  案例:  
 
 ```js
 // withViewport.js
