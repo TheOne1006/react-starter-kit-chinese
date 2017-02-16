@@ -1,6 +1,6 @@
 ## React Starter Kit — "[同构](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)" web  应用 样板 &nbsp; <a href="https://github.com/kriasoft/react-starter-kit/stargazers"><img src="https://img.shields.io/github/stars/kriasoft/react-starter-kit.svg?style=social&label=Star&maxAge=3600" height="20"></a> <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
 
-我只是做个翻译
+我只是做个[翻译](./chinese-docs/README.md)
 
 [React Starter Kit](https://www.reactstarterkit.com) 是一个 web 开发样本 构建在  [Node.js](https://nodejs.org/),
 [Express](http://expressjs.com/),
@@ -14,7 +14,7 @@
 [Browsersync](http://www.browsersync.io/).
 帮助你实现最佳实践. 为专业人士和新来者提供行业的坚实起点.
 
-**See** [getting started guide](./docs/getting-started.md), [demo][demo],
+**See** [getting started guide](./chinese-docs/getting-started.md), [demo][demo],
 [docs](https://github.com/kriasoft/react-starter-kit/tree/master/docs),
 [roadmap](https://github.com/kriasoft/react-starter-kit/projects/1) &nbsp;|&nbsp;
 **Join** [#react-starter-kit][chat] chat room on Gitter &nbsp;|&nbsp;
